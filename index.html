@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Modulo 2</title>
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <header id="mainheader">
+
+        <nav id="navbar">
+            <div class="container">
+                <div class="showcase-img">
+                  <a href="#home"><img src="./img/logo.png"></a>
+            </div>
+          <div class="container">
+            <ul>
+              <li><a href="#nosotros">Nosotros</a></li>
+              <li><a href="#evento">El Evento</a></li>
+              <li><a href="#registrate">Registrate</a></li>
+            </ul>
+          </div>
+        </nav>
+         
+      </header>
+      
+      <main>
+        <div id="bord1"></div>
+        <div id="bord2"></div>
+        <div id="bord3"></div>
+
+        <!-- HOME -->
+        <section id="home">
+          <div class="container">
+            <div class="home-text">
+              <h1><span class="title-one">EXPO VINO 2022</span> </h1>
+              <h2><span class="title-two">Juntos, potenciamos el comercio jujeño</span> </h2>
+             </div>
+            <div class="home-img">
+              <img src="./img/img-home.png" alt="">
+            </div>
+          </div>
+        </section>
+
+        <!-- EL EVENTO -->
+        <section id="evento">
+            <div class="container">
+              <div class="evento-video">
+                <video id="video" src="img/v.mp4" type='video/mp4' loop autoplay preload muted >
+                </video>
+              </div>
+              <div class="evento-description">
+                <h2>El Evento</h2>
+                <p class="large">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus sed facilisi ultrices tincidunt sed turpis et dictumst justo. Tempor venenatis magnis consequat, accumsan. 
+                    <p>Cras non dictum ullamcorper vel id tincidunt. Egestas risus, tortor sagittis, ornare morbi. Dictum in a pulvinar elit. Sollicitudin cras quis sapien in venenatis egestas elementum.  Massa dictumst id mattis lectus est elementum quisque ornare. Vulputate accumsan arcu ut urna, ac, dapibus nisl.</p>
+              </div>             
+            </div>
+          </section>
+
+          <!-- NOSOTROS -->
+          <section id="nosotros">
+            <div class="container">
+              <div class="nos-description">
+                <h2>Organizadores</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus sed facilisi ultrices tincidunt sed turpis et dictumst justo. Tempor venenatis magnis consequat, accumsan. Aliquet elit velit fringilla nulla nam.
+                <p>Cras non dictum ullamcorper vel id tincidunt. Egestas risus, tortor sagittis, ornare morbi. Dictum in a pulvinar elit. Sollicitudin cras quis sapien in venenatis egestas elementum. A augue nisi fames lectus penatibus facilisis elementum, sapien praesent.</p>
+              </div>
+              <div class="nos-img">
+                <img src="./img/nos.png" alt="">
+              </div>
+            </div>
+          </section>
+
+          <!-- REGISTRATE -->
+          <section id="registrate">
+            <div class="container">
+              <marquee behavior="" direction="">EXPO VINO - JUJUY 2022 - TINTO - BLANCO - ROSADO - ESPUMOSO - CAVERNET SAUVIGNON - PINOT NOIR - RIESLING - MERLOT - CHARDONNAY - SAUVIGNON BLANC </marquee>
+              <div class="contact-form">
+                <form id="formulario">
+                  <div class="form-group">
+                    <label for="comercio">Comercio</label>
+                    <input id="comercio" class="form-control" type="text">
+                  </div>
+                  <div class="form-group">
+                    <label for="titular">Titular</label>
+                    <input id="titular" class="form-control" type="text">
+                  </div>
+                  <div class="form-group">
+                    <label for="cel">Celular</label>
+                    <input id="cel" class="form-control" type="number" >
+                  </div>
+  
+                  <button id="enviar" class="btn btn-light">ENVIAR</button>
+                </form>
+              </div>
+        
+              <div class="contact-title">
+                <h2>Registrate</h2>
+              </div>
+        
+            </div>
+
+      </main>
+      
+      <footer>
+        
+        <!-- CLIMA -->
+        <div id="contenedorclima">
+          <div id="caja1">
+              <h3>Temperatura</h3>
+              <h3 id="temperatura-valor"></h3>
+              <h3 id="temperatura-descripcion"></h3>
+          </div>
+          <div id="caja2">
+              <h3 id="ubicacion"></h3>
+              <h3>Ciudad Cultural</h3>
+          </div>
+          <div id="caja3">
+              <h3>Veloc. del Viento</h3>
+              <h3 id="viento-velocidad"></h3>
+          </div>
+      </div>
+
+      <!-- WHATSAPP -->
+        <a href="https://api.whatsapp.com/send?phone=3885730811" class="btn-wsp" target="_blank">
+            <i class="fa fa-whatsapp icono"></i>
+        </a>
+      </footer>
+
+      <script src="main.js"></script>
+
+</body>
+</html>
